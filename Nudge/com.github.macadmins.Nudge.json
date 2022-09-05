@@ -9,26 +9,6 @@
   },
   "osVersionRequirements": [
     {
-      "aboutUpdateURL_disabled": "https://support.apple.com/en-us/HT211896",
-      "aboutUpdateURLs": [
-        {
-          "_language": "en",
-          "aboutUpdateURL": "https://support.apple.com/en-us/HT211896"
-        },
-        {
-          "_language": "nb",
-          "aboutUpdateURL": "https://support.apple.com/no-no/HT212585"
-        },
-        {
-          "_language": "sv",
-          "aboutUpdateURL": "https://support.apple.com/sv-se/HT212585"
-        },
-      ],
-      "requiredInstallationDate": "2022-09-28T00:00:00Z",
-      "requiredMinimumOSVersion": "11.6.8",
-      "targetedOSVersionsRule": "default"
-    },
-    {
       "aboutUpdateURL_disabled": "https://support.apple.com/en-us/HT212585",
       "aboutUpdateURLs": [
         {
