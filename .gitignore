@@ -1,0 +1,7 @@
+*.pkg
+*.pkg/
+*.app.tar.bz2
+.DS_Store
+*.swp
+*.app
+*.dmg

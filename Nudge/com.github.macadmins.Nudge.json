@@ -1,0 +1,76 @@
+{
+  "optionalFeatures": {
+    "aggressiveUserExperience": true,
+    "asynchronousSoftwareUpdate": true,
+    "attemptToFetchMajorUpgrade": false,
+    "disableSoftwareUpdateWorkflow": false,
+    "acceptableCameraUsage": true,
+    "acceptableScreenSharingUsage": true,
+  },
+  "osVersionRequirements": [
+    {
+      "aboutUpdateURL_disabled": "https://support.apple.com/en-us/HT211896",
+      "aboutUpdateURLs": [
+        {
+          "_language": "en",
+          "aboutUpdateURL": "https://support.apple.com/en-us/HT211896"
+        },
+        {
+          "_language": "nb",
+          "aboutUpdateURL": "https://support.apple.com/no-no/HT212585"
+        },
+        {
+          "_language": "sv",
+          "aboutUpdateURL": "https://support.apple.com/sv-se/HT212585"
+        },
+      ],
+      "requiredInstallationDate": "2022-09-28T00:00:00Z",
+      "requiredMinimumOSVersion": "11.6.8",
+      "targetedOSVersionsRule": "default"
+    },
+    {
+      "aboutUpdateURL_disabled": "https://support.apple.com/en-us/HT212585",
+      "aboutUpdateURLs": [
+        {
+          "_language": "en",
+          "aboutUpdateURL": "https://support.apple.com/en-us/HT212585"
+        },
+        {
+          "_language": "nb",
+          "aboutUpdateURL": "https://support.apple.com/no-no/HT212585"
+        },
+        {
+          "_language": "sv",
+          "aboutUpdateURL": "https://support.apple.com/sv-se/HT212585"
+        },
+      ],
+      "requiredInstallationDate": "2022-09-28T00:00:00Z",
+      "requiredMinimumOSVersion": "12.5.2",
+      "targetedOSVersionsRule": "default"
+    }
+  ],
+  "userExperience": {
+    "allowGracePeriods": true,
+    "gracePeriodInstallDelay": 72,
+    "gracePeriodLaunchDelay": 24,
+    "allowUserQuitDeferrals": true,
+    "allowedDeferrals": 7,
+    "allowedDeferralsUntilForcedSecondaryQuitButton": 14,
+    "approachingRefreshCycle": 300,
+    "key>approachingWindowTime": 48,
+    "elapsedRefreshCycle": 300,
+    "imminentRefreshCycle": 120,
+    "imminentWindowTime": 12,
+    "initialRefreshCycle": 300,
+    "maxRandomDelayInSecond": 60,
+    "nudgeRefreshCycle": 60,
+    "randomDelay": true
+  },
+  "userInterface": {
+    "fallbackLanguage": "en",
+    "forceFallbackLanguage": false,
+    "showDeferralCount": true,
+    "simpleMode": false,
+    "singleQuitButton": true,
+  }
+}
