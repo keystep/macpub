@@ -9,8 +9,8 @@
         "minimum_os_version": "12.6",
         "more_info_url": "https://support.apple.com/en-us/HT211896",
         "no_timer": false,
-        "button_title_text": "Ready to start the update?"
-        "button_sub_titletext": "Click on the button below."
+        "button_title_text": "Ready to start the update?",
+        "button_sub_titletext": "Click on the button below.",
         "paragraph_title_text": "En sikkerhetsoppdatering er nødvendig på maskinen din.",
         "paragraph1_text": "On October 25, 2021, Apple released their current operating system, macOS 12 Monterey.",
         "paragraph2_text": "In accordance with Apple's OS release cycle, we anticipate that macOS 10.15 will no longer receive security updates starting November 2022.",
