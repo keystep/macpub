@@ -5,7 +5,7 @@
         "days_between_notifications": 1,
         "logo_path": "/Library/nudge/Resources/company_logo.png",
         "main_title_text": "Nødvendig macOS-oppdatering",
-        "minimum_os_sub_build_version": "21G115",
+        "minimum_os_sub_build_version": "21G217",
         "minimum_os_version": "12.6.1",
         "more_info_url": "https://support.apple.com/no-no/HT212585",
         "local_url_for_upgrade": "munki://detail-Install_macOS_Monterey.html",
