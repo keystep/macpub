@@ -1,0 +1,56 @@
+{
+  "optionalFeatures": {
+    "aggressiveUserExperience": true,
+    "asynchronousSoftwareUpdate": true,
+    "attemptToFetchMajorUpgrade": false,
+    "disableSoftwareUpdateWorkflow": false,
+    "acceptableCameraUsage": true,
+    "acceptableScreenSharingUsage": true,
+  },
+  "osVersionRequirements": [
+    {
+      "aboutUpdateURL_disabled": "https://www.apple.com/macos/ventura/",
+      "aboutUpdateURLs": [
+        {
+          "_language": "en",
+          "aboutUpdateURL": "https://www.apple.com/macos/ventura/"
+        },
+        {
+          "_language": "nb",
+          "aboutUpdateURL": "https://www.apple.com/no/macos/ventura/"
+        },
+        {
+          "_language": "sv",
+          "aboutUpdateURL": "https://www.apple.com/se/macos/ventura/"
+        },
+      ],
+      "requiredInstallationDate": "2022-12-14T12:00:00Z",
+      "requiredMinimumOSVersion": "13.0.1",
+      "targetedOSVersionsRule": "default"
+    }
+  ],
+  "userExperience": {
+    "allowGracePeriods": true,
+    "gracePeriodInstallDelay": 72,
+    "gracePeriodLaunchDelay": 24,
+    "allowUserQuitDeferrals": true,
+    "allowedDeferrals": 7,
+    "allowedDeferralsUntilForcedSecondaryQuitButton": 14,
+    "approachingRefreshCycle": 300,
+    "key>approachingWindowTime": 48,
+    "elapsedRefreshCycle": 300,
+    "imminentRefreshCycle": 120,
+    "imminentWindowTime": 12,
+    "initialRefreshCycle": 300,
+    "maxRandomDelayInSecond": 60,
+    "nudgeRefreshCycle": 60,
+    "randomDelay": true
+  },
+  "userInterface": {
+    "fallbackLanguage": "en",
+    "forceFallbackLanguage": false,
+    "showDeferralCount": true,
+    "simpleMode": false,
+    "singleQuitButton": true,
+  }
+}
