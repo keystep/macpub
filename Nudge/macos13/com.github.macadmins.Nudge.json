@@ -5,7 +5,7 @@
     "attemptToFetchMajorUpgrade": false,
     "disableSoftwareUpdateWorkflow": false,
     "acceptableCameraUsage": true,
-    "acceptableScreenSharingUsage": true,
+    "acceptableScreenSharingUsage": true
   },
   "osVersionRequirements": [
     {
@@ -22,7 +22,7 @@
         {
           "_language": "sv",
           "aboutUpdateURL": "https://www.apple.com/se/macos/ventura/"
-        },
+        }
       ],
       "requiredInstallationDate": "2022-11-24T12:00:00Z",
       "requiredMinimumOSVersion": "13.0.1",
@@ -51,6 +51,6 @@
     "forceFallbackLanguage": false,
     "showDeferralCount": true,
     "simpleMode": false,
-    "singleQuitButton": true,
+    "singleQuitButton": true
   }
 }
