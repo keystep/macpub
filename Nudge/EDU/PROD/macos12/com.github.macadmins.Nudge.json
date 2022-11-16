@@ -5,7 +5,7 @@
     "attemptToFetchMajorUpgrade": false,
     "disableSoftwareUpdateWorkflow": false,
     "acceptableCameraUsage": true,
-    "acceptableScreenSharingUsage": true,
+    "acceptableScreenSharingUsage": true
   },
   "osVersionRequirements": [
     {
@@ -22,7 +22,7 @@
         {
           "_language": "sv",
           "aboutUpdateURL": "https://support.apple.com/sv-se/HT212585"
-        },
+        }
       ],
       "requiredInstallationDate": "2022-11-22T12:00:00Z",
       "requiredMinimumOSVersion": "12.6.1",
@@ -51,6 +51,6 @@
     "forceFallbackLanguage": false,
     "showDeferralCount": true,
     "simpleMode": false,
-    "singleQuitButton": true,
+    "singleQuitButton": true
   }
 }
