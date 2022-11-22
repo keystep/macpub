@@ -24,7 +24,7 @@
           "aboutUpdateURL": "https://support.apple.com/sv-se/HT212585"
         }
       ],
-      "requiredInstallationDate": "2022-11-22T00:00:00Z",
+      "requiredInstallationDate": "2022-11-24T12:00:00Z",
       "requiredMinimumOSVersion": "11.7.1",
       "targetedOSVersionsRule": "default"
     }
@@ -35,7 +35,7 @@
     "gracePeriodLaunchDelay": 24,
     "allowUserQuitDeferrals": true,
     "allowedDeferrals": 21,
-    "allowedDeferralsUntilForcedSecondaryQuitButton": 21,
+    "allowedDeferralsUntilForcedSecondaryQuitButton": 14,
     "approachingRefreshCycle": 300,
     "key>approachingWindowTime": 48,
     "elapsedRefreshCycle": 300,

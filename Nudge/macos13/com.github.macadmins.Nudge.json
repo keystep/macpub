@@ -9,19 +9,19 @@
   },
   "osVersionRequirements": [
     {
-      "aboutUpdateURL_disabled": "https://www.apple.com/macos/ventura/",
+      "aboutUpdateURL_disabled": "https://support.apple.com/en-us/HT213268",
       "aboutUpdateURLs": [
         {
           "_language": "en",
-          "aboutUpdateURL": "https://www.apple.com/macos/ventura/"
+          "aboutUpdateURL": "https://support.apple.com/en-us/HT213268"
         },
         {
           "_language": "nb",
-          "aboutUpdateURL": "https://www.apple.com/no/macos/ventura/"
+          "aboutUpdateURL": "https://support.apple.com/no-no/HT213268"
         },
         {
           "_language": "sv",
-          "aboutUpdateURL": "https://www.apple.com/se/macos/ventura/"
+          "aboutUpdateURL": "https://support.apple.com/sv-se/HT213268"
         }
       ],
       "requiredInstallationDate": "2022-11-24T12:00:00Z",
@@ -35,7 +35,7 @@
     "gracePeriodLaunchDelay": 24,
     "allowUserQuitDeferrals": true,
     "allowedDeferrals": 21,
-    "allowedDeferralsUntilForcedSecondaryQuitButton": 21,
+    "allowedDeferralsUntilForcedSecondaryQuitButton": 14,
     "approachingRefreshCycle": 300,
     "key>approachingWindowTime": 48,
     "elapsedRefreshCycle": 300,
