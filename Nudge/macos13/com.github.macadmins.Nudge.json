@@ -31,7 +31,7 @@
   ],
   "userExperience": {
     "allowGracePeriods": true,
-    "gracePeriodInstallDelay": 72,
+    "gracePeriodInstallDelay": 48,
     "gracePeriodLaunchDelay": 24,
     "allowUserQuitDeferrals": true,
     "allowedDeferrals": 21,
