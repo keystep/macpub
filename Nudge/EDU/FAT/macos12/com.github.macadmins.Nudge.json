@@ -2,7 +2,7 @@
   "optionalFeatures": {
     "aggressiveUserExperience": true,
     "asynchronousSoftwareUpdate": true,
-    "attemptToFetchMajorUpgrade": false,
+    "attemptToFetchMajorUpgrade": true,
     "disableSoftwareUpdateWorkflow": false,
     "acceptableCameraUsage": true,
     "acceptableScreenSharingUsage": true
@@ -26,7 +26,8 @@
       ],
       "requiredInstallationDate": "2023-01-12T12:00:00Z",
       "requiredMinimumOSVersion": "12.6.2",
-      "targetedOSVersionsRule": "default"
+      "targetedOSVersionsRule": "default",
+      "majorUpgradeAppPath": "/System/Library/CoreServices/Software Update.app"
     }
   ],
   "userExperience": {
