@@ -24,7 +24,7 @@
           "aboutUpdateURL": "https://support.apple.com/sv-se/HT212585"
         }
       ],
-      "requiredInstallationDate": "2023-03-162T12:00:00Z",
+      "requiredInstallationDate": "2023-03-16T12:00:00Z",
       "requiredMinimumOSVersion": "11.7.4",
       "targetedOSVersionsRule": "default"
     }
