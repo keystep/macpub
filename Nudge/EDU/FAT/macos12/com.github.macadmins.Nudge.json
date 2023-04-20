@@ -24,8 +24,8 @@
           "aboutUpdateURL": "https://support.apple.com/sv-se/HT212585"
         }
       ],
-      "requiredInstallationDate": "2023-03-16T12:00:00Z",
-      "requiredMinimumOSVersion": "12.6.3",
+      "requiredInstallationDate": "2023-05-25T12:00:00Z",
+      "requiredMinimumOSVersion": "12.6.5",
       "targetedOSVersionsRule": "default",
       "majorUpgradeAppPath": "/System/Library/CoreServices/Software Update.app"
     }
