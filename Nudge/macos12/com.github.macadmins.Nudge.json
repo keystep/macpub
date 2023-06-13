@@ -3,7 +3,7 @@
     "aggressiveUserExperience": true,
     "asynchronousSoftwareUpdate": true,
     "attemptToFetchMajorUpgrade": false,
-    "disableSoftwareUpdateWorkflow": false,
+    "disableSoftwareUpdateWorkflow": true,
     "acceptableCameraUsage": true,
     "acceptableScreenSharingUsage": true
   },
