@@ -37,7 +37,7 @@
     "allowedDeferrals": 21,
     "allowedDeferralsUntilForcedSecondaryQuitButton": 14,
     "approachingRefreshCycle": 300,
-    "key>approachingWindowTime": 48,
+    "approachingWindowTime": 48,
     "elapsedRefreshCycle": 300,
     "imminentRefreshCycle": 120,
     "imminentWindowTime": 12,
