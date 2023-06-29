@@ -24,8 +24,8 @@
           "aboutUpdateURL": "https://support.apple.com/sv-se/HT212585"
         }
       ],
-      "requiredInstallationDate": "2023-06-26T12:00:00Z",
-      "requiredMinimumOSVersion": "11.7.7",
+      "requiredInstallationDate": "2023-08-25T12:00:00Z",
+      "requiredMinimumOSVersion": "11.7.8",
       "targetedOSVersionsRule": "default",
       "actionButtonPath": "munki://updates"
     }
@@ -35,8 +35,8 @@
     "gracePeriodInstallDelay": 24,
     "gracePeriodLaunchDelay": 24,
     "allowUserQuitDeferrals": true,
-    "allowedDeferrals": 21,
-    "allowedDeferralsUntilForcedSecondaryQuitButton": 14,
+    "allowedDeferrals": 60,
+    "allowedDeferralsUntilForcedSecondaryQuitButton": 50,
     "approachingRefreshCycle": 300,
     "key>approachingWindowTime": 48,
     "elapsedRefreshCycle": 300,
