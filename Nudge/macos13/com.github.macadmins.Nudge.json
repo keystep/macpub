@@ -24,7 +24,7 @@
           "aboutUpdateURL": "https://support.apple.com/sv-se/HT213268"
         }
       ],
-      "requiredInstallationDate": "2023-08-31T12:00:00Z",
+      "requiredInstallationDate": "2023-08-25T12:00:00Z",
       "requiredMinimumOSVersion": "13.5.1",
       "targetedOSVersionsRule": "default"
     }
@@ -34,8 +34,8 @@
     "gracePeriodInstallDelay": 48,
     "gracePeriodLaunchDelay": 24,
     "allowUserQuitDeferrals": true,
-    "allowedDeferrals": 21,
-    "allowedDeferralsUntilForcedSecondaryQuitButton": 14,
+    "allowedDeferrals": 10,
+    "allowedDeferralsUntilForcedSecondaryQuitButton": 5,
     "approachingRefreshCycle": 300,
     "approachingWindowTime": 48,
     "elapsedRefreshCycle": 300,
