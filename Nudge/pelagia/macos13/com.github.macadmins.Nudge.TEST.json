@@ -1,0 +1,24 @@
+{
+  "osVersionRequirements": [
+    {
+      "aboutUpdateURL_disabled": "https://support.apple.com/en-us/HT213268",
+      "aboutUpdateURLs": [
+        {
+          "_language": "en",
+          "aboutUpdateURL": "https://support.apple.com/en-us/HT213268"
+        },
+        {
+          "_language": "nb",
+          "aboutUpdateURL": "https://support.apple.com/no-no/HT213268"
+        },
+        {
+          "_language": "sv",
+          "aboutUpdateURL": "https://support.apple.com/sv-se/HT213268"
+        }
+      ],
+      "requiredInstallationDate": "2023-09-29T12:00:00Z",
+      "requiredMinimumOSVersion": "13.5.2",
+      "targetedOSVersionsRule": "default"
+    }
+  ],
+}
