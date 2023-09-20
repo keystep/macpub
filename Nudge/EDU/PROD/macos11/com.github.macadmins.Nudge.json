@@ -27,7 +27,7 @@
       "requiredInstallationDate": "2023-09-14T12:00:00Z",
       "requiredMinimumOSVersion": "11.7.9",
       "targetedOSVersionsRule": "default",
-      "actionButtonPath": "munki://updates"
+      "actionButtonPath": "/System/Library/CoreServices/Software Update.app"
     }
   ],
   "userExperience": {
