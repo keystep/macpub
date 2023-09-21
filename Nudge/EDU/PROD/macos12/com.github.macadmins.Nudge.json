@@ -27,7 +27,7 @@
       "requiredInstallationDate": "2023-09-14T12:00:00Z",
       "requiredMinimumOSVersion": "12.6.8",
       "targetedOSVersionsRule": "default",
-      "majorUpgradeAppPath": "munki://updates"
+      "majorUpgradeAppPath": "/System/Library/CoreServices/Software Update.app"
     }
   ],
   "userExperience": {
