@@ -1,0 +1,56 @@
+{
+  "optionalFeatures": {
+    "aggressiveUserExperience": true,
+    "asynchronousSoftwareUpdate": true,
+    "attemptToFetchMajorUpgrade": false,
+    "disableSoftwareUpdateWorkflow": true,
+    "acceptableCameraUsage": true,
+    "acceptableScreenSharingUsage": true
+  },
+  "osVersionRequirements": [
+    {
+      "aboutUpdateURL_disabled": "https://support.apple.com/en-us/HT213268",
+      "aboutUpdateURLs": [
+        {
+          "_language": "en",
+          "aboutUpdateURL": "https://support.apple.com/en-us/HT213268"
+        },
+        {
+          "_language": "nb",
+          "aboutUpdateURL": "https://support.apple.com/no-no/HT213268"
+        },
+        {
+          "_language": "sv",
+          "aboutUpdateURL": "https://support.apple.com/sv-se/HT213268"
+        }
+      ],
+      "requiredInstallationDate": "2023-09-14T12:00:00Z",
+      "requiredMinimumOSVersion": "14.0",
+      "targetedOSVersionsRule": "default"
+    }
+  ],
+  "userExperience": {
+    "allowGracePeriods": true,
+    "gracePeriodInstallDelay": 48,
+    "gracePeriodLaunchDelay": 24,
+    "allowUserQuitDeferrals": true,
+    "allowedDeferrals": 60,
+    "allowedDeferralsUntilForcedSecondaryQuitButton": 50,
+    "approachingRefreshCycle": 600,
+    "approachingWindowTime": 48,
+    "elapsedRefreshCycle": 300,
+    "imminentRefreshCycle": 120,
+    "imminentWindowTime": 24,
+    "initialRefreshCycle": 600,
+    "maxRandomDelayInSecond": 600,
+    "nudgeRefreshCycle": 60,
+    "randomDelay": true
+  },
+  "userInterface": {
+    "fallbackLanguage": "en",
+    "forceFallbackLanguage": false,
+    "showDeferralCount": true,
+    "simpleMode": false,
+    "singleQuitButton": true
+  }
+}
