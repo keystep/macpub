@@ -9,19 +9,19 @@
   },
   "osVersionRequirements": [
     {
-      "aboutUpdateURL_disabled": "https://support.apple.com/en-us/HT213268",
+      "aboutUpdateURL_disabled": "https://support.apple.com/en-us/HT213895",
       "aboutUpdateURLs": [
         {
           "_language": "en",
-          "aboutUpdateURL": "https://support.apple.com/en-us/HT213268"
+          "aboutUpdateURL": "https://support.apple.com/en-us/HT213895"
         },
         {
           "_language": "nb",
-          "aboutUpdateURL": "https://support.apple.com/no-no/HT213268"
+          "aboutUpdateURL": "https://support.apple.com/no-no/HT213895"
         },
         {
           "_language": "sv",
-          "aboutUpdateURL": "https://support.apple.com/sv-se/HT213268"
+          "aboutUpdateURL": "https://support.apple.com/sv-se/HT213895"
         }
       ],
       "requiredInstallationDate": "2023-10-31T12:00:00Z",
