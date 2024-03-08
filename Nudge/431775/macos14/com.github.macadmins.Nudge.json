@@ -25,7 +25,7 @@
         }
       ],
       "requiredInstallationDate": "2024-05-13T12:00:00Z",
-      "requiredMinimumOSVersion": "14.3.1",
+      "requiredMinimumOSVersion": "14.4",
       "targetedOSVersionsRule": "default"
     }
   ],
