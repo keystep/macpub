@@ -24,8 +24,8 @@
           "aboutUpdateURL": "https://support.apple.com/sv-se/HT213268"
         }
       ],
-      "requiredInstallationDate": "2024-01-26T06:00:00Z",
-      "requiredMinimumOSVersion": "13.6.4",
+      "requiredInstallationDate": "2024-03-13T06:00:00Z",
+      "requiredMinimumOSVersion": "13.6.5",
       "targetedOSVersionsRule": "default"
     }
   ],
