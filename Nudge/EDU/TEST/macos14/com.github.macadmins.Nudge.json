@@ -24,8 +24,8 @@
           "aboutUpdateURL": "https://support.apple.com/sv-se/HT213895"
         }
       ],
-      "requiredInstallationDate": "2024-04-11T12:00:00Z",
-      "requiredMinimumOSVersion": "14.4",
+      "requiredInstallationDate": "2024-05-15T12:00:00Z",
+      "requiredMinimumOSVersion": "14.4.1",
       "targetedOSVersionsRule": "default"
     }
   ],
