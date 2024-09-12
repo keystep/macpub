@@ -1,0 +1,54 @@
+{
+  "optionalFeatures": {
+    "aggressiveUserExperience": true,
+    "asynchronousSoftwareUpdate": true,
+    "attemptToFetchMajorUpgrade": false,
+    "disableSoftwareUpdateWorkflow": true,
+    "acceptableCameraUsage": true,
+    "acceptableScreenSharingUsage": true
+  },
+  "osVersionRequirements": [
+    {
+      "aboutUpdateURL_disabled": "https://www.apple.com/macos/macos-sequoia-preview/",
+      "aboutUpdateURLs": [
+        {
+          "_language": "en",
+          "aboutUpdateURL": "https://www.apple.com/macos/macos-sequoia-preview/"
+        },
+        {
+          "_language": "nb",
+          "aboutUpdateURL": "https://www.apple.com/no/macos/sonoma/"
+        },
+        {
+          "_language": "sv",
+          "aboutUpdateURL": "https://www.apple.com/se/macos/sonoma/"
+        }
+      ],
+      "requiredInstallationDate": "2024-10-19T12:00:00Z",
+      "requiredMinimumOSVersion": "15.0",
+      "targetedOSVersionsRule": "default"
+    }
+  ],
+  "userExperience": {
+    "allowGracePeriods": true,
+    "gracePeriodInstallDelay": 48,
+    "gracePeriodLaunchDelay": 4,
+    "allowUserQuitDeferrals": true,
+    "approachingRefreshCycle": 300,
+    "approachingWindowTime": 48,
+    "elapsedRefreshCycle": 300,
+    "imminentRefreshCycle": 120,
+    "imminentWindowTime": 12,
+    "initialRefreshCycle": 300,
+    "maxRandomDelayInSecond": 60,
+    "nudgeRefreshCycle": 60,
+    "randomDelay": true
+  },
+  "userInterface": {
+    "fallbackLanguage": "en",
+    "forceFallbackLanguage": false,
+    "showDeferralCount": true,
+    "simpleMode": false,
+    "singleQuitButton": true
+  }
+}
