@@ -24,8 +24,8 @@
           "aboutUpdateURL": "https://www.apple.com/se/macos/sonoma/"
         }
       ],
-      "requiredInstallationDate": "2024-10-09T06:00:00Z",
-      "requiredMinimumOSVersion": "15.0.1",
+      "requiredInstallationDate": "2024-11-01T06:00:00Z",
+      "requiredMinimumOSVersion": "15.1",
       "targetedOSVersionsRule": "default"
     }
   ],
