@@ -5,7 +5,8 @@
     "attemptToFetchMajorUpgrade": false,
     "disableSoftwareUpdateWorkflow": true,
     "acceptableCameraUsage": true,
-    "acceptableScreenSharingUsage": true
+    "acceptableScreenSharingUsage": true,
+    "attemptToCheckForSupportedDevice": false
   },
   "osVersionRequirements": [
     {
