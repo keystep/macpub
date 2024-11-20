@@ -1,0 +1,57 @@
+{
+  "optionalFeatures": {
+      "acceptableUpdatePreparingUsage": true,
+      "disableNudgeForStandardInstalls": false,
+      "honorFocusModes": true,
+      "honorCycleTimersOnExit": true,
+      "refreshSOFAFeedTime": 43200,
+      "utilizeSOFAFeed": true,
+      "attemptToCheckForSupportedDevice": true
+  },
+  "osVersionRequirements": [
+      {
+        "osVersionRequirements": [
+          {
+            "requiredMinimumOSVersion": "latest-minor",
+            "targetedOSVersionsRule": 13
+          },
+          {
+            "requiredMinimumOSVersion": "latest-minor",
+            "targetedOSVersionsRule": 14
+          },
+          {
+            "requiredMinimumOSVersion": "latest",
+            "targetedOSVersionsRule": "default"
+          }
+          ],
+          "activelyExploitedCVEsMajorUpgradeSLA": 3,
+          "activelyExploitedCVEsMinorUpdateSLA": 3,
+          "nonActivelyExploitedCVEsMajorUpgradeSLA": 5,
+          "nonActivelyExploitedCVEsMinorUpdateSLA": 5,
+          "standardMajorUpgradeSLA": 28,
+          "standardMinorUpdateSLA": 5,
+          "unsupportedURL": "https://support.apple.com/unsupported",
+          "unsupportedURLs": [
+              {
+                  "_language": "en",
+                  "unsupportedURL": "https://support.apple.com/unsupported-en"
+              },
+              {
+                  "_language": "es",
+                  "unsupportedURL": "https://support.apple.com/unsupported-es"
+              }
+          ]
+      }
+  ],
+  "userExperience": {
+      "allowMovableWindow": true,
+      "nudgeMajorUpgradeEventLaunchDelay": 7,
+      "nudgeMinorUpdateEventLaunchDelay": 1
+  },
+  "userInterface": {
+      "showActivelyExploitedCVEs": true,
+      "showDaysRemainingToUpdate": false,
+      "showRequiredDate": true,
+      "requiredInstallationDisplayFormat": "MM/dd/yyyy"
+  }
+}
