@@ -1,5 +1,10 @@
 {
   "optionalFeatures": {
+      "aggressiveUserExperience": true,
+      "attemptToFetchMajorUpgrade": false,
+      "disableSoftwareUpdateWorkflow": true,
+      "acceptableCameraUsage": true,
+      "acceptableScreenSharingUsage": true,
       "acceptableUpdatePreparingUsage": true,
       "disableNudgeForStandardInstalls": false,
       "honorFocusModes": true,
@@ -22,23 +27,34 @@
               {
                   "_language": "en",
                   "unsupportedURL": "https://support.apple.com/unsupported-en"
-              },
-              {
-                  "_language": "es",
-                  "unsupportedURL": "https://support.apple.com/unsupported-es"
               }
           ]
       }
   ],
   "userExperience": {
       "allowMovableWindow": true,
-      "nudgeMajorUpgradeEventLaunchDelay": 7,
-      "nudgeMinorUpdateEventLaunchDelay": 1
+      "allowGracePeriods": true,
+      "gracePeriodInstallDelay": 48,
+      "gracePeriodLaunchDelay": 4,
+      "allowUserQuitDeferrals": true,
+      "allowedDeferrals": 10,
+      "allowedDeferralsUntilForcedSecondaryQuitButton": 5,
+      "approachingRefreshCycle": 300,
+      "approachingWindowTime": 48,
+      "elapsedRefreshCycle": 300,
+      "imminentRefreshCycle": 120,
+      "imminentWindowTime": 12,
+      "initialRefreshCycle": 300,
+      "maxRandomDelayInSecond": 60,
+      "nudgeRefreshCycle": 60,
+      "randomDelay": true
   },
   "userInterface": {
       "showActivelyExploitedCVEs": true,
       "showDaysRemainingToUpdate": false,
+      "singleQuitButton": true,
       "showRequiredDate": true,
       "requiredInstallationDisplayFormat": "MM/dd/yyyy"
   }
 }
+  
