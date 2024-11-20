@@ -15,19 +15,23 @@
   },
   "osVersionRequirements": [
       {
-          "requiredMinimumOSVersion": "latest",
+          "requiredMinimumOSVersion": "latest-minor",
           "activelyExploitedCVEsMajorUpgradeSLA": 3,
           "activelyExploitedCVEsMinorUpdateSLA": 3,
           "nonActivelyExploitedCVEsMajorUpgradeSLA": 5,
           "nonActivelyExploitedCVEsMinorUpdateSLA": 5,
           "standardMajorUpgradeSLA": 28,
           "standardMinorUpdateSLA": 5,
-          "unsupportedURL": "https://support.apple.com/unsupported",
+          "unsupportedURL": "https://support.apple.com/en-us/109033",
           "unsupportedURLs": [
               {
-                  "_language": "en",
-                  "unsupportedURL": "https://support.apple.com/unsupported-en"
-              }
+                  "_language": "no",
+                  "unsupportedURL": "https://support.apple.com/no-no/109033"
+              },
+              {
+                "_language": "sv",
+                "unsupportedURL": "https://support.apple.com/sv-se/109033"
+            }
           ]
       }
   ],
