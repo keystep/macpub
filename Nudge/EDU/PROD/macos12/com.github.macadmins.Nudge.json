@@ -1,11 +1,13 @@
 {
   "optionalFeatures": {
     "aggressiveUserExperience": true,
-    "asynchronousSoftwareUpdate": true,
     "attemptToFetchMajorUpgrade": false,
-    "disableSoftwareUpdateWorkflow": true,
     "acceptableCameraUsage": true,
-    "acceptableScreenSharingUsage": true
+    "acceptableScreenSharingUsage": true,
+    "attemptToCheckForSupportedDevice": true,
+    "disableSoftwareUpdateWorkflow": false,
+    "disableNudgeForStandardInstalls": false,
+    "refreshSOFAFeedTime": 86400
   },
   "osVersionRequirements": [
     {
@@ -31,9 +33,10 @@
     }
   ],
   "userExperience": {
+    "allowMovableWindow": false,
     "allowGracePeriods": true,
     "gracePeriodInstallDelay": 24,
-    "gracePeriodLaunchDelay": 2,
+    "gracePeriodLaunchDelay": 1,
     "allowUserQuitDeferrals": true,
     "allowedDeferrals": 60,
     "allowedDeferralsUntilForcedSecondaryQuitButton": 50,
@@ -49,8 +52,11 @@
   },
   "userInterface": {
     "fallbackLanguage": "en",
-    "forceFallbackLanguage": false,
+    "requiredInstallationDisplayFormat": "dd-MM-yyyy HH:mm",
+    "showActivelyExploitedCVEs": true,
     "showDeferralCount": true,
+    "showDaysRemainingToUpdate": true,
+    "showRequiredDate": true,
     "simpleMode": false,
     "singleQuitButton": true
   }
