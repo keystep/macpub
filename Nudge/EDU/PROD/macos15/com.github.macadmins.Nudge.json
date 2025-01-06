@@ -1,11 +1,13 @@
 {
   "optionalFeatures": {
     "aggressiveUserExperience": true,
-    "asynchronousSoftwareUpdate": true,
     "attemptToFetchMajorUpgrade": false,
-    "disableSoftwareUpdateWorkflow": true,
     "acceptableCameraUsage": true,
-    "acceptableScreenSharingUsage": true
+    "acceptableScreenSharingUsage": true,
+    "attemptToCheckForSupportedDevice": true,
+    "disableSoftwareUpdateWorkflow": false,
+    "disableNudgeForStandardInstalls": false,
+    "refreshSOFAFeedTime": 86400
   },
   "osVersionRequirements": [
     {
@@ -24,15 +26,16 @@
           "aboutUpdateURL": "https://www.apple.com/se/macos/sonoma/"
         }
       ],
-      "requiredInstallationDate": "2024-08-25T12:00:00Z",
-      "requiredMinimumOSVersion": "15.0",
+      "requiredInstallationDate": "2025-01-06T15:00:00Z",
+      "requiredMinimumOSVersion": "15.2",
       "targetedOSVersionsRule": "default"
     }
   ],
   "userExperience": {
+    "allowMovableWindow": false,
     "allowGracePeriods": true,
     "gracePeriodInstallDelay": 24,
-    "gracePeriodLaunchDelay": 2,
+    "gracePeriodLaunchDelay": 1,
     "allowUserQuitDeferrals": true,
     "allowedDeferrals": 60,
     "allowedDeferralsUntilForcedSecondaryQuitButton": 50,
@@ -48,8 +51,11 @@
   },
   "userInterface": {
     "fallbackLanguage": "en",
-    "forceFallbackLanguage": false,
+    "requiredInstallationDisplayFormat": "dd-MM-yyyy HH:mm",
+    "showActivelyExploitedCVEs": true,
     "showDeferralCount": true,
+    "showDaysRemainingToUpdate": true,
+    "showRequiredDate": true,
     "simpleMode": false,
     "singleQuitButton": true
   }
